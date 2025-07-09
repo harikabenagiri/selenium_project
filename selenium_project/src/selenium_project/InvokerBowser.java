@@ -16,6 +16,7 @@ public class InvokerBowser {
 
         
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
+		driver.close();
 	}
 
 }
